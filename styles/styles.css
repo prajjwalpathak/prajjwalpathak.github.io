@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    color: rgb(151, 151, 151);
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn", monospace;
+    line-height: 1.6rem;
+}
+
+button {
+    /* Remove default background and border */
+    background: none;
+    border: none;
+
+    /* Remove default padding and margin */
+    padding: 0;
+    margin: 0;
+
+    /* Remove default text styling */
+    font: inherit;
+    /* Inherit font properties from parent */
+    color: inherit;
+    /* Inherit color from parent */
+    text-align: inherit;
+    /* Inherit text alignment */
+
+    /* Remove outline on focus */
+    outline: none;
+
+    /* Remove default cursor style */
+    cursor: pointer;
+    /* Or 'default' if you don't want a pointer */
+
+    /* Reset appearance for cross-browser consistency */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+canvas {
+    background-color: rgb(40, 40, 40);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-section {
+    width: 100%;
+    height: 10rem;
+}
+
+.title {
+    color: rgb(151, 151, 151);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.canvas-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.range-section {
+    display: flex;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.start-btn {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.range {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.slider-details {
+    display: flex;
+    width: 8rem;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #e2b714;
+}
+
+.highlight {
+    color: #E2B714;
+}
