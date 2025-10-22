@@ -5,7 +5,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 800;
 canvas.height = 360;
 
-let SPEED = 0.8;
+let SPEED = 0.6;
 let DELAY = (1 / SPEED) * 25;
 let FREQ = 120;
 const GAP = 2;
