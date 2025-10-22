@@ -358,7 +358,6 @@ const init = () => {
     setBarArray();
     // changeBarColor(0,RED);
     // moveColorBar(0,10,RED);
-    // drawRectangle();
     // swapBar(0, 10);
     // findMin(0, FREQ - 1);
     // selectionSort();
