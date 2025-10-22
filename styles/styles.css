@@ -56,24 +56,27 @@ canvas {
     justify-content: center;
 }
 
-.menu-section {
-    width: 100%;
-    height: 10rem;
-}
-
 .title {
     color: rgb(151, 151, 151);
     padding: 0.5rem;
     margin: 1rem;
 }
 
-.canvas-section {
-    display: flex;
-    flex-direction: column;
+.menu-section {
+    width: 100vw;
 }
 
 .range-section {
+    width: 100vw;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.canvas-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
@@ -84,14 +87,14 @@ canvas {
 }
 
 .start-btn {
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
 .range {
-    margin: 0.5rem;
+    margin: 0 1rem;
     padding: 0.5rem;
 }
 

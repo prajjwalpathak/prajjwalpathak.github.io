@@ -2,16 +2,16 @@ import { getRandomArray } from "./utils.js";
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-canvas.width = 800;
+canvas.width = 720;
 canvas.height = 360;
 
 let SPEED = 0.6;
 let DELAY = (1 / SPEED) * 25;
 let FREQ = 120;
-const GAP = 2;
-const X = 100;
-const Y = 320;
+let GAP = 2;
 let W = (600 - (FREQ * GAP)) / FREQ;
+let X = (canvas.width - (FREQ * W + (FREQ - 1) * GAP)) / 2;
+let Y = canvas.height * 0.9;
 const MIN = 10;
 const MAX = 250;
 
